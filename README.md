@@ -1,4 +1,4 @@
-# Shelby's CSC 350 hHTML/CSS Project 
+# Shelby's CSC 350 HTML/CSS Project 
 
 This is my website built with HTML and CSS. It includes:
 - A homepage with fun facts and images
