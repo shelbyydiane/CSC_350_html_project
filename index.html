@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shelby's Homepage</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+            body {
+                background-color: slateblue;
+                font-family: 'Montserrat', sans-serif;
+                text-align: center;
+                color: white;
+            }
+
+            marquee{
+                font-size: 4rem; 
+
+            }
+
+            h1 {
+                font-size: 3rem; 
+                font-weight: light;
+
+            }
+
+            nav a {
+                margin: 0 15px;
+                color: gold;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            ul {
+                text-align: center;
+                list-style: none;
+                padding-left: 0;
+            }
+            ul li::before {
+                content: "★";
+                color: gold;
+                margin-right: 8px;
+            }
+            .circle-image {
+                width: 200px; 
+                height: 200px; 
+                object-fit: cover; 
+                border-radius: 50%; 
+                border: 3px solid white;
+                display: block;
+                margin: 20px auto; 
+            }
+    </style>
+
+</head>
+<body>
+    <marquee align="middle" behavior="scroll" scrolldelay="1" scrollamount="10"><font color=gold>★</font> WELCOME! <font color=gold>★</font></marquee>
+    
+    <h1>SHELBY'S HOMEPAGE</h1>
+    <h2>Interesting facts about Shelby: </h2>
+    <ul>
+        <li>She loves astronomy and space exploration.</li>
+        <li>She has a toothless cat named Stinky.</li>
+        <li>She was a classically trained dancer.</li>
+    </ul>
+
+    <br>
+    <img src="stinky.jpg" alt="Stinky the Cat" class="circle-image">
+
+    <br>
+    <h3>Check out her links:</h3>
+    <nav>
+        <a href="myUniversity.html">University</a> | 
+        <a href="resume.html">Resume/CV</a>
+    </nav>
+</body>
+</html>
