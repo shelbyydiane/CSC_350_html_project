@@ -7,7 +7,6 @@
     
     <style>
             body {
-                background-color: blue;
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
                 color: white;
@@ -46,11 +45,27 @@
                 display: block;
                 margin: 20px auto; 
             }
+            .background {
+                background-image: url('CAMPUS_BUILDING_DSC46952.jpeg');
+                background-size: cover;     
+                background-repeat: no-repeat;
+                background-position: center center;
+              }
+
+              .content-box {
+                background-color: rgba(6, 44, 182, 0.902); 
+                max-width: 900px;
+                margin: 40px auto;
+                padding: 40px;
+                border-radius: 20px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.6);
+            }
     </style>
 
 </head> 
 
-<body>
+<body class="background">
+<div class="content-box">
     <marquee align="middle" behavior="scroll" scrolldelay="1" scrollamount="10"><h2> Start Here, Go Anywhere!</marquee></h2>
 
     <h1>CUNY's <br>Borough of Manhattan <br> Community College</h1>
@@ -68,6 +83,7 @@
         <a href="resume.html">Resume/CV</a>
         <br><br><br>
     </nav>
+</div>
 </body>
 
 </html>
