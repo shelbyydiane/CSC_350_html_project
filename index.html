@@ -7,7 +7,6 @@
     
     <style>
             body {
-                background-color: slateblue;
                 font-family: 'Montserrat', sans-serif;
                 text-align: center;
                 color: white;
@@ -26,7 +25,7 @@
 
             nav a {
                 margin: 0 15px;
-                color: gold;
+                color: rgb(255, 252, 103);
                 text-decoration: none;
                 font-weight: bold;
             }
@@ -40,7 +39,7 @@
             }
             ul li::before {
                 content: "★";
-                color: gold;
+                color: rgb(255, 252, 103);
                 margin-right: 8px;
             }
             .circle-image {
@@ -52,14 +51,31 @@
                 display: block;
                 margin: 20px auto; 
             }
+            .background {
+                background-image: url('pexels-ithalu-907485.jpg');
+                background-size: cover;     
+                background-repeat: no-repeat;
+                background-position: center center;
+              }
+
+            .content-box {
+                background-color: rgba(86, 104, 208, 0.765); 
+                max-width: 900px;
+                margin: 40px auto;
+                padding: 40px;
+                border-radius: 20px;
+                box-shadow: 0 0 20px rgba(0,0,0,0.6);
+            }
     </style>
 
 </head>
-<body>
-    <marquee align="middle" behavior="scroll" scrolldelay="1" scrollamount="10"><font color=gold>★</font> WELCOME! <font color=gold>★</font></marquee>
+<body class="background">
+<div class="content-box">
+
+    <marquee align="middle" behavior="scroll" scrolldelay="1" scrollamount="10"><font color=pink>★</font> WELCOME! <font color=pink>★</font></marquee>
     
     <h1>SHELBY'S HOMEPAGE</h1>
-    <h2>Fun facts about Shelby: </h2>
+    <h2>Interesting facts about Shelby: </h2>
     <ul>
         <li>She loves astronomy and space exploration.</li>
         <li>She has a toothless cat named Stinky.</li>
@@ -74,7 +90,7 @@
     <nav>
         <a href="myUniversity.html">University</a> | 
         <a href="resume.html">Resume/CV</a>
-    <br><br>    
     </nav>
+</div>
 </body>
 </html>
