@@ -10,7 +10,7 @@ This is my website built with HTML and CSS. It includes:
 
 
 
-🔗 [Visit the live site here!](https://yourusername.github.io/your-repo-name/)
+🔗 [Visit the live site here!](https://shelbyydiane.github.io/CSC_350_html_project/)
 
 ## Tech Stack
 - HTML5
