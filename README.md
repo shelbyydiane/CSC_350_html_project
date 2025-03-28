@@ -4,7 +4,7 @@ This is my website built with HTML and CSS. It includes:
 - A homepage with fun facts and images
 - A university page describing my program and activities
 - A resume page with leadership, work experience, and technical skills
-- Fully responsive layout using pure HTML and CSS
+- Fully responsive layout using HTML and CSS
 
 *Each page was a specific requirement for the project*
 
@@ -13,8 +13,8 @@ This is my website built with HTML and CSS. It includes:
 🔗 [Visit the live site here!](https://shelbyydiane.github.io/CSC_350_html_project/)
 
 ## Tech Stack
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Google Fonts
 - Responsive design
 
